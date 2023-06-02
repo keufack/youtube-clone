@@ -150,8 +150,8 @@ title {
 
 .profile-box {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   overflow: hidden;
 
@@ -220,7 +220,7 @@ title {
 .chips {
   margin: 12px 6px;
   background-color: #373737;
-  padding: 9px 13px;
+  padding: 7px 10px;
   border: 1px solid grey;
   border-radius: 8px;
   color: #fff;
@@ -248,10 +248,11 @@ title {
   overflow-y: scroll;
   height: calc(100vh - 116px);
 }
+
 .channel-logo {
   position: relative;
-  min-width: 45px;
-  height: 45px;
+  min-width: 40px;
+  height: 40px;
   border-radius: 40px;
   overflow: hidden;
   display: block;
@@ -364,6 +365,7 @@ h3 {
     width: 70px;
     overflow-x: hidden;
   }
+
   .active {
     display: none;
   }
@@ -382,6 +384,7 @@ h3 {
 @media (max-width: 820px) {
   .video-container {
     grid-template-columns: repeat(2, 1fr);
+    padding-right: 80px;
   }
 }
 @media (max-width: 600px) {
@@ -390,5 +393,23 @@ h3 {
   }
   .search-container {
     display: none;
+  }
+}
+@media (max-width: 460px) {
+  .video-container {
+    padding-right: 20px;
+  }
+
+  .sidebar-container {
+    display: none;
+  }
+  .ri-menu-line {
+    display: none;
+  }
+  .logo-img {
+    margin-left: -40px;
+  }
+  .chips-wrapper {
+    padding-left: 0px;
   }
 }
